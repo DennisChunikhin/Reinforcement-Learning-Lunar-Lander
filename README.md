@@ -1,6 +1,8 @@
 # Reinforcement Learning Lunar Lander
 Using reinforcement learning to train a computer how to land a lunar lander on uneven terrain.
 
+![Landing gif](/imgs/LunarLanderRoughTerrain-v0.gif)
+
 ## Deep Q Learning
 I first tried implementing a Deep Q Network, however the network was unable to learn even the OpenAI gym LunarLander-v2 environment.
 
