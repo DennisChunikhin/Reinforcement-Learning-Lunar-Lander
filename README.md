@@ -14,18 +14,23 @@ I decided to test three cases
 ## No Terrain Data
 No information about the terrain was included in the state given to the network.
 The network was able to learn how to land.
+![Training Graph](/imgs/LunarLanderTerrainNoData-v0.png)
 
 ## Height
 The height of the lander above the terrain is included in the state.
 The network was able to learn how to land much more smoothly than when no terrain data was given
+![Training Graph](/imgs/LunarLanderTerrainHeight-v0.png)
 
 ## Terrain Data
 The average slope of each chunk of terrain was included in the state.
 The network took longer to learn and did not learn as much, however it was ultimately also successfull at landing.
+![Training Graph](/imgs/LunarLanderTerrainData-v0.png)
 
 ## Conclusiong
-The network that was given only the height performed the best, however I think that given more tweaking and training, the network with terrain data could probably perform at least comparably.
+I think that taking into account how long each network was trained for, the networks that recieved the height and the terrain data performed the best.
+I think that this method could be scaled up to 3 dimensional terrain and greater numbers of chunks.
 
 ## Rough Terrain
 I tweaked the environment further to create rougher terrain, and trained the network that recieved only the height to land.
 The network was able to successfully learn how to land on the rough terrain.
+![Training Graph](/imgs/LunarLanderRoughTerrain-v0.png)
