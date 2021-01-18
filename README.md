@@ -26,7 +26,7 @@ The average slope of each chunk of terrain was included in the state.
 The network took longer to learn and did not learn as much, however it was ultimately also successfull at landing.
 ![Training Graph](/imgs/LunarLanderTerrainData-v0.png)
 
-## Conclusiong
+## Conclusion
 I think that taking into account how long each network was trained for, the networks that recieved the height and the terrain data performed the best.
 I think that this method could be scaled up to 3 dimensional terrain and greater numbers of chunks.
 
